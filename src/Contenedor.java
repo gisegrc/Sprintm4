@@ -262,7 +262,6 @@ public class Contenedor {
         }
     }
 
-
     public void eliminarUsuario(Scanner scanner) {
         mostrarListaUsuarios();
 
@@ -308,10 +307,6 @@ public class Contenedor {
             System.out.println(capacitacion);
         }
     }
-
-    public List<Usuario> getListaUsuarios(){
-         return listadoUsuarios;
-     }
 
     public void llenarIngresosPrueba() {
         // Agregar usuarios de prueba
